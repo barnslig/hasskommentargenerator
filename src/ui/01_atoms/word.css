@@ -1,0 +1,20 @@
+.e-word {
+  color: #000;
+  background: #eee;
+  text-decoration: none;
+  padding: 5px 10px;
+  border-radius: 3px;
+  margin: 3px;
+  margin-top: -5px;
+
+  /* button reset */
+  display: inline;
+  border: 0;
+  outline: none;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.e-word:hover {
+  background: #ddd;
+}
