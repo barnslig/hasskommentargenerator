@@ -2,7 +2,9 @@
   "name": "hasskommentargenerator",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://files.caracl.de/hasskommentargenerator/",
   "dependencies": {
+    "lodash.samplesize": "^4.2.0",
     "prop-types": "^15.5.10",
     "react": "^15.6.1",
     "react-dom": "^15.6.1",

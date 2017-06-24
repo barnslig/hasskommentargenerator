@@ -21,6 +21,17 @@ export const commentDelLastWord = () => ({
 });
 
 /**
+ * Set dictionary
+ *
+ * @param {object} dictionary - Dictionary
+ * @returns {object} State transition
+ */
+export const commentSetDictionary = (dictionary) => ({
+  type: types.COMMENT_SET_DICTIONARY,
+  dictionary,
+});
+
+/**
  * Set possible next words
  *
  * @param {[]string} nextWords - Next words which can be appended by the user
